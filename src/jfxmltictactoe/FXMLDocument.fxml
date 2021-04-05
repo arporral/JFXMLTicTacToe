@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="560.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfxmltictactoe.FXMLDocumentController">
+    <children>
+      <Button fx:id="b1" layoutY="112.0" mnemonicParsing="false" onAction="#b1" prefHeight="150.0" prefWidth="250.0" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Button>
+      <Button fx:id="b4" layoutY="262.0" mnemonicParsing="false" onAction="#b4" prefHeight="150.0" prefWidth="250.0" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Button>
+      <Button fx:id="b7" layoutY="412.0" mnemonicParsing="false" onAction="#b7" prefHeight="150.0" prefWidth="250.0" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Button>
+      <Button fx:id="b8" layoutX="250.0" layoutY="412.0" mnemonicParsing="false" onAction="#b8" prefHeight="150.0" prefWidth="250.0" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Button>
+      <Button fx:id="b5" layoutX="250.0" layoutY="262.0" mnemonicParsing="false" onAction="#b5" prefHeight="150.0" prefWidth="250.0" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Button>
+      <Button fx:id="b2" layoutX="250.0" layoutY="112.0" mnemonicParsing="false" onAction="#b2" prefHeight="150.0" prefWidth="250.0" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Button>
+      <Button fx:id="b3" layoutX="500.0" layoutY="112.0" mnemonicParsing="false" onAction="#b3" prefHeight="150.0" prefWidth="250.0" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Button>
+      <Button fx:id="b6" layoutX="500.0" layoutY="262.0" mnemonicParsing="false" onAction="#b6" prefHeight="150.0" prefWidth="250.0" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Button>
+      <Button fx:id="b9" layoutX="500.0" layoutY="412.0" mnemonicParsing="false" onAction="#b9" prefHeight="150.0" prefWidth="250.0" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="72.0" />
+         </font>
+      </Button>
+      <Label fx:id="player" alignment="CENTER" layoutX="248.0" layoutY="22.0" prefHeight="66.0" prefWidth="250.0" text="JUGADOR 1" textAlignment="CENTER">
+         <font>
+            <Font name="Garamond Bold" size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
